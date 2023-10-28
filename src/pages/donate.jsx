@@ -3,6 +3,7 @@ import Head from 'next/head'
 import React from 'react'
 
 import topbanner from '../../public/images/srkw2-17.jpg'
+import DonatePartners from '../components/DonatePartners/DonatePartners'
 import TopBanner from '../components/TopBanner'
 
 export const Donate = () => {
@@ -53,6 +54,7 @@ export const Donate = () => {
           Donate Now
         </Button>
         <br />
+        <DonatePartners />
       </Box>
     </>
   )
